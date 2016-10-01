@@ -27,5 +27,5 @@ void draw() {
   text("Visibility (mi):" + visibility_mi, 50, 90);
   ellipse(300, 300, temp_f*2, pressure_in*2);  //example of using stored data to draw shapes
   
-  delay(1500);
+  delay(6500); //the free API usage allows 10 calls per minute
 }
